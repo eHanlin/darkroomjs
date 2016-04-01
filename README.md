@@ -95,6 +95,27 @@ save: {
   }
 ```
 
+## API
+
+#### ready()
+```
+dkrm
+  .ready()
+  .then(function(){
+    console.log('ready');
+});
+```
+
+#### selfDestroy()
+
+```
+dkrm
+  .selfDestroy()
+  .then(function(){
+  //do something...
+});
+```
+
 ## License
 
 DarkroomJS is released under the MIT License. See the [bundled LICENSE file](LICENSE)
